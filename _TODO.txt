@@ -1,0 +1,20 @@
+Major problems:
+
+1- Possible memory problems. Program has not gone under memory leak checks yet. The possible place for these leak (other than our program) is PyQt port to Python.
+
+2- The current edf reading module does not provide facilites to read file with problemistic header (even minor problems) and just produce an error message once it encounter one. 
+This problem should not happen and idealy program should ignore these minor problems (like date or things like that).
+
+
+Minor Problem:
+
+1- The labels that show channle names are not working properly. These labels should always be clickable but sometimes they don't respond to clicks. They are also not easy to read.
+
+2- Colors are not always visible we should add a simple pannel that allows user to change the colors.
+
+3- The main plot needs  grids and perhaps a crosshair tool.
+
+4- adding an option to hide a channel from screen. ( sometime a channel is too noisy).
+
+5- This version has not been debugged by EDF files with different time recording and sampling.
+

@@ -1,0 +1,13 @@
+# example project
+name = example project # name of the project
+eeg_list = eeg_list1.txt
+report_list = None
+annotation_list = annotation_list.txt
+add_new_user = True
+config = config.txt
+class_mapping = class_mapping.txt
+montage = montage.txt
+users_list = users.list
+root = root
+final = final
+finished = finished.list
